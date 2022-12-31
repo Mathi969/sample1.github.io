@@ -1,0 +1,36 @@
+
+<html>
+<body>
+<input id="on">
+<button onmouseover="mesi1()">Son of man</button>
+<p id="demo"></p>
+</body>
+<script>
+
+function mesi1() {
+
+var text;
+var je=document.getElementById("on").value;
+switch(je) {
+case "Menu":
+text="Verset cle--Conception-- Naissance--Enfance--Jeunesse--Adulte--Ministere publique---Arrestation---Crucifixion--Mort--Resurection";
+break;
+case "Verset-cle":
+text="Il a paru comme un simple homme,Phil 2:7b...CP Luc 10:30fgv";
+break;
+default:
+text="Type 'Menu' ";
+}
+document.getElementById("demo").innerHTML=text;
+
+};
+
+
+
+</script>
+
+
+
+
+
+</html>
